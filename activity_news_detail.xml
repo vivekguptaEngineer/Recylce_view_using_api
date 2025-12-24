@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageIntent"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="401dp"
+        android:layout_height="39dp">
+
+        <TextView
+            android:id="@+id/deatil_Information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="hiio"
+            android:textStyle="bold"></TextView>
+
+
+    </ScrollView>
+    <TextView
+        android:id="@+id/last_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hwll">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:text="price" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy" />
+
+    <LinearLayout
+        android:layout_width="434dp"
+        android:layout_height="98dp"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dayicon"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/img"></ImageView>
+
+            <TextView
+                android:id="@+id/shing_informatiuon"
+                android:layout_width="match_parent"
+
+                android:layout_height="43dp"
+                android:gravity="center"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+
+                android:layout_marginLeft="56dp"
+                android:src="@drawable/img_2">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/shing_informatiuon1"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="21dp"
+                android:gravity="center"
+                android:text="hello"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="6mm"
+                android:src="@drawable/img_1"></ImageView>
+
+            <TextView
+                android:id="@+id/warrantyInformation1"
+                android:layout_width="66dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="90dp"
+                android:text="heloo"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
